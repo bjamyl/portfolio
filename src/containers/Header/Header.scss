@@ -1,0 +1,218 @@
+.header {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  overflow-y: hidden;
+  height: 100vh;
+  padding: 12rem 0;
+  
+  @media screen and (min-width:1200px){
+    padding: 20rem 0;
+  }
+}
+
+.header__content {
+  grid-column: 1/9;
+  text-align: center;
+
+
+  // h1 {
+  //   font-size: 1.9rem;
+  //   font-weight: 600;
+  //   line-height: 38px;
+  //   transition: all 0.5s ease-in-out;
+  
+  //   @media screen and (min-width: 620px) {
+  //     font-size: 2.5rem;
+  //     line-height: 45px;
+  //   }
+  
+  //   @media screen and (min-width: 960px) {
+  //     font-size: 3rem;
+  //     line-height: 52px;
+  //   }
+  // }
+  
+  // h2 {
+  //   font-size: 1.2rem;
+  //   font-weight: 300;
+  //   transition: all 0.5s ease-in-out;
+  
+  //   @media screen and (min-width: 620px) {
+  //     font-size: 1.8rem;
+  //   }
+  
+  //   @media screen and (min-width: 9600px) {
+  //     font-size: 2.1rem;
+  //   }
+    
+  //   @media screen and (min-width:1200px) {
+  //     font-size: 1.5em;
+  
+      
+  //   }
+  // }
+  
+  // h3 {
+  //   font-size: 0.9rem;
+  //   text-transform: uppercase;
+  //   font-weight: 300;
+  //   line-height: 20px;
+  //   padding: 0.5rem;
+  //   transition: all 0.5s ease-in-out;
+  
+  //   @media screen and (min-width: 620px) {
+  //     font-size: 1.1rem;
+  //     line-height: 25px;
+  //   }
+  
+  //   @media screen and (min-width: 960px) {
+  //     font-size: 1.3rem;
+  //     line-height: 30px;
+  //   }
+  
+  //   @media screen and (min-width: 1200px) {
+  //     padding: 0.5rem 0;
+  //     font-size: 0.8em;
+  //     line-height: 163%;
+      
+  //   }
+  // }
+  
+
+
+
+  @media screen and (min-width: 1200px) {
+    .header__content {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__content {
+    text-align: left;
+    grid-column: span 4;
+  }
+
+  .header__animation {
+    grid-column: 1/4;
+  }
+}
+
+.header__content-btn {
+  text-decoration: none;
+  color: var(--accent-color);
+  border: 3px solid var(--accent-color);
+  line-height: 3.5rem;
+  padding: 0.2rem 1rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    font-weight: 500;
+  }
+
+  @media screen and (min-width: 960px) {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+
+/*BALANCING BALL ANIMATION*/
+.header__animation {
+  // border: 2px solid red;
+  grid-column: 1/9;
+
+  @media screen and (min-width: 1200px) {
+    grid-column: span 4;
+    
+  }
+}
+
+.main_container {
+  margin-top: 10rem;
+  // border: 2px solid red;
+  grid-column: 1/9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 620px) {
+    margin-top: 12rem;
+  }
+}
+
+.balance {
+  z-index: 0;
+  position: relative;
+  // border: 1px solid white;
+
+  animation: animateBalance 3s ease-in-out infinite;
+
+  @keyframes animateBalance {
+    0% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+}
+
+.balls_container {
+  position: absolute;
+  bottom: 0.9rem;
+  width: 100%;
+  // border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+
+  @media screen and (min-width: 620px) {
+    gap: 12rem;
+    bottom: 1.2rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    bottom: 1.4rem;
+    gap: 14rem;
+  }
+}
+
+#triangle {
+  transform: translateY(-6px);
+}
+
+/* RESPONSIVENESS FOR ANIMATION */
+
+#triangle,
+#square,
+#circle {
+  transition: all 0.5s ease-in-out;
+
+  @media screen and (min-width: 620px) {
+    width: 100px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 120px;
+  }
+}
+
+#bar {
+  transition: all 0.5s ease-in-out;
+
+  @media screen and (min-width: 620px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 530px;
+  }
+
+}

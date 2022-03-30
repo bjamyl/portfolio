@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-family:'Prompt', sans-serif;
+
+    --primary-color: #051622;
+    --secondary-color: #F6F6F6 ;
+    --accent-color: #7082E2;
+    --secondary-bg: #1A2238;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
