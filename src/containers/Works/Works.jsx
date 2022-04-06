@@ -19,9 +19,12 @@ const Works = () => {
           }
           icon={<FaDribbble />}
           buttonName={"See on Dribbble"}
-          link={"https://react-icons.github.io/react-icons/search?q=dribbble"}
+          link={
+            "https://dribbble.com/shots/17948464-Roomie-Student-Accommodation-Site-Landing-Page"
+          }
         />
-        <Work className='work_2'
+        <Work
+          className="work_2"
           workImage={images.guess}
           workTitle={"Number Guessing Game"}
           workDescription={"UI/UX DESIGN AND DEVELOPMENT"}
