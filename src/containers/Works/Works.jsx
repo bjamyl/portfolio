@@ -53,11 +53,11 @@ const Works = () => {
           workTitle={"JamFlix-Streaming Service App UI"}
           workDescription={"MOBILE APP DEVELOPMENT"}
           workBrief={
-            "A cross-platform mobile app that displays search results using the Yelp API about restaurants and foods."
+            "A cross-platform mobile app that displays search results, including the rating, name and photos using the Yelp API about restaurants and foods."
           }
           icon={<AiFillEye />}
           buttonName={"View on Github"}
-          link={"https://github.com/bjamyl/yelp_food_rn"}
+          link={"https://github.com/bjamyl/react_native_restaurant_search_app"}
         />
       </div>
     </section>
