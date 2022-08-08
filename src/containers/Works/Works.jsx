@@ -50,7 +50,7 @@ const Works = () => {
         <Work
           className="work_2"
           workImage={images.search_app}
-          workTitle={"JamFlix-Streaming Service App UI"}
+          workTitle={"Restaurant Search App"}
           workDescription={"MOBILE APP DEVELOPMENT"}
           workBrief={
             "A cross-platform mobile app that displays search results, including the rating, name and photos using the Yelp API about restaurants and foods."
