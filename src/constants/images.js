@@ -4,7 +4,7 @@ import bar from '../assets/bar.svg'
 import triangle from '../assets/triangle.svg'
 import guess from '../assets/guess_img.png'
 import roomie from '../assets/roomie.png'
-
+import jamflix from '../assets/jamflix.png'
 
 export default {
     bar,
@@ -12,5 +12,6 @@ export default {
     square,
     triangle,
     guess,
-    roomie
+    roomie,
+    jamflix
 }

@@ -29,11 +29,23 @@ const Works = () => {
           workTitle={"Number Guessing Game"}
           workDescription={"UI/UX DESIGN AND DEVELOPMENT"}
           workBrief={
-            "This app generate a random number for users to try and guess the right number before the score hits zero."
+            "This app generates a random number for users to try and guess the right number before the score hits zero."
           }
           icon={<AiFillEye />}
           buttonName={"View Live Site"}
           link={"https://funguessbyjamyl.netlify.app/"}
+        />
+        <Work
+          className="work_2"
+          workImage={images.jamflix}
+          workTitle={"JamFlix-Streaming Service App UI"}
+          workDescription={"DEVELOPMENT"}
+          workBrief={
+            "A streaming service app with realtime data fetched through TMDB Movie database API"
+          }
+          icon={<AiFillEye />}
+          buttonName={"View Live Site"}
+          link={"https://streaming-service-aipzeqw65-bjamyl.vercel.app/"}
         />
       </div>
     </section>
