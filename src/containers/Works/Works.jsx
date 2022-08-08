@@ -47,6 +47,18 @@ const Works = () => {
           buttonName={"View Live Site"}
           link={"https://streaming-service-aipzeqw65-bjamyl.vercel.app/"}
         />
+        <Work
+          className="work_2"
+          workImage={images.search_app}
+          workTitle={"JamFlix-Streaming Service App UI"}
+          workDescription={"MOBILE APP DEVELOPMENT"}
+          workBrief={
+            "A cross-platform mobile app that displays search results using the Yelp API about restaurants and foods."
+          }
+          icon={<AiFillEye />}
+          buttonName={"View on Github"}
+          link={"https://github.com/bjamyl/yelp_food_rn"}
+        />
       </div>
     </section>
   );

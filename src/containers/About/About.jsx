@@ -36,7 +36,7 @@ const About = () => {
               {/* <div className="skills-icon"> <BsBriefcaseFill/></div> <br /> */}
               My development and tech aresenal: <br />
               <span>
-                Javascript(ES6+), SASS. ReactJS, NextJS, Tailwind CSS,
+                Javascript(ES6+), SASS. ReactJS, React Native, NextJS, Tailwind CSS,
                 Bootstrap, Bulma, Material UI, FramerMotion, GSAP, Sanity,
                 Figma, Illustrator, Photoshop, Git, GitHub
               </span>
