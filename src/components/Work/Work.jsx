@@ -10,6 +10,7 @@ const Work = ({
   buttonName,
   icon,
   link,
+  tech
 }) => {
   return (
     <section className="work ">
@@ -24,6 +25,7 @@ const Work = ({
             <h3>{workTitle}</h3>
             <h4>{workDescription}</h4>
             <p>{workBrief}</p>
+            <p className="tech"><span>Tech stack:</span> {tech}</p>
             <div className="work-btn">
               <a href={link} target="_blank" rel="noreferrer">
                 {" "}

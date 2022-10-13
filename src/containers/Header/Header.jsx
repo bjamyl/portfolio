@@ -18,7 +18,7 @@ const Header = () => {
             and <span>clarity</span>
           </h1>
           <h4>
-            FRONTEND WEB DEVELOPER <br /> UI/UX DESIGNER
+            FULLSTACK WEB DEVELOPER 
           </h4>
           <a href="#contact" className="header__content-btn">
             Let's Talk

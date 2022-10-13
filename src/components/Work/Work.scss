@@ -26,6 +26,7 @@
     width: clamp(295px,5vw, 531px);
     height: clamp(215px, 5vw, 387px);
     border-radius: 20px;
+    object-fit: contain;
 
     @media screen and (min-width: 1200px) {
       width: calc(354px * 1.5);
@@ -73,3 +74,10 @@
   }
 }
 
+.tech{
+  padding-top: 10px;
+  color: var(--accent-color);
+  span{
+    color: white;
+  }
+}

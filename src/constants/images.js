@@ -6,6 +6,8 @@ import guess from '../assets/guess_img.png'
 import roomie from '../assets/roomie.png'
 import jamflix from '../assets/jamflix.png'
 import search_app from '../assets/b_search.jpg'
+import real_estate from '../assets/real_estate.png'
+import spexbyte from '../assets/spexbyte.png'
 
 export default {
     bar,
@@ -15,5 +17,7 @@ export default {
     guess,
     roomie,
     jamflix,
-    search_app
+    search_app,
+    real_estate,
+    spexbyte
 }

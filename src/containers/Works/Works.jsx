@@ -1,7 +1,6 @@
 import React from "react";
 import "./Works.scss";
 import { Work } from "../../components/index";
-import { FaDribbble } from "react-icons/fa";
 import { AiFillEye } from "react-icons/ai";
 import { images } from "../../constants";
 
@@ -11,41 +10,44 @@ const Works = () => {
       <div className="works-section__container ">
         <h2>WORKS</h2>
         <Work
-          workImage={images.roomie}
-          workTitle={"Roomie"}
-          workDescription={"UI/UX DESIGN"}
-          workBrief={
-            "Roomie is design for a website to help students find affordable and comfortable places to stay while they pursue their studies."
-          }
-          icon={<FaDribbble />}
-          buttonName={"See on Dribbble"}
-          link={
-            "https://dribbble.com/shots/17948464-Roomie-Student-Accommodation-Site-Landing-Page"
-          }
-        />
-        <Work
           className="work_2"
-          workImage={images.guess}
-          workTitle={"Number Guessing Game"}
-          workDescription={"UI/UX DESIGN AND DEVELOPMENT"}
+          workImage={images.real_estate}
+          workTitle={"Real Estate App"}
+          workDescription={"WEB DEVELOPMENT"}
           workBrief={
-            "This app generates a random number for users to try and guess the right number before the score hits zero."
+            "A web app for viewing, searching and making enquiries about property listings. Users can create accounts to gain access to a dashboard and view properties they have enquired about."
           }
           icon={<AiFillEye />}
           buttonName={"View Live Site"}
-          link={"https://funguessbyjamyl.netlify.app/"}
+          link={"https://myrealestateapp.vercel.app/"}
+          tech={"Django REST Framework, Next JS, Tailwind CSS, Framer Motion PostgreSQL"}
+        />
+        <Work
+          className="work_2"
+          workImage={images.spexbyte}
+          workTitle={"Spexbyte Development Agency"}
+          workDescription={"WEB DEVELOPMENT"}
+          workBrief={
+            "A website for a digital creative agency based in Ghana. The purpose of this site is to showcase projects, identify the Spexbyte brand and allow clients to easily seek services of this agency. This is a work in progress."
+          }
+          icon={<AiFillEye />}
+          buttonName={"View Live Site"}
+          link={"https://myrealestateapp.vercel.app/"}
+          tech={"Next JS, Tailwind CSS, Framer Motion, GSAP"}
         />
         <Work
           className="work_2"
           workImage={images.jamflix}
           workTitle={"JamFlix-Streaming Service App UI"}
-          workDescription={"DEVELOPMENT"}
+          workDescription={"WEB DEVELOPMENT"}
           workBrief={
             "A streaming service app with realtime data fetched through TMDB Movie database API"
           }
           icon={<AiFillEye />}
           buttonName={"View Live Site"}
           link={"https://streaming-service-aipzeqw65-bjamyl.vercel.app/"}
+          tech={"Next JS, Tailwind CSS, TMDB Database API"}
+
         />
         <Work
           className="work_2"
@@ -58,6 +60,8 @@ const Works = () => {
           icon={<AiFillEye />}
           buttonName={"View on Github"}
           link={"https://github.com/bjamyl/react_native_restaurant_search_app"}
+          tech={"React Native, Yelp API"}
+
         />
       </div>
     </section>

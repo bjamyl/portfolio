@@ -16,29 +16,39 @@ const About = () => {
             Hello stranger, introducing <span>Jamil Alhassan</span>{" "}
           </h3>
           <p className="leading-text">
-            I'm a graphic designer and digital artist turned developer. My
-            journey to become a developer began during the COVID 19 Pandemic
-            lockdown. Since then, I've journeyed through the ups and downs of
-            learning to code with the help of online courses and YouTube
-            tutorials. I am proud to say today, I can design and bring to life,
-            designs in the form of websites and web apps with techonlogies like
-            HTML5, CSS3, Boostrap, Javascript and React JS. When I'm not busy
-            saving the world by learning code, you'll most probably find me
-            making art or playing video games.
+            I'm a Biological Scientist turned developer. How did this happen?
+            Well, my journey to become a developer kicked off during the COVID
+            19 Pandemic lockdown. I had always been interested in tech ever
+            since I was a kid which earned me the out of fashion moniker
+            "Computer wizard" growing up. So it came as no surprise to me when I
+            just could not stop coding after trying my hands on some python.
+            Since then, I've journeyed through the ups and downs of teaching
+            myself to program with the help of online courses and YouTube
+            tutorials.
+            <p>
+              I am proud to say today, I can design and bring to life, designs
+              in the form of websites and web apps with popular web techonlogies
+              like React for frontend development, Django for backend
+              development and APIs built with Django REST Framework. When I'm
+              not busy saving the world by learning code, you'll most probably
+              find me making art, playing video games or watching House of The
+              Dragon or anticipating the next episode(I do hope they nail the
+              ending on this one. Lol).
+            </p>
           </p>
           <div className="lower__section">
             <p className="skills">
               {/* <div className="skills-icon"> <GoTools/></div> <br /> */}
               My skills include: <br />
-              <span>UI/UX, Front-end Development, Logo Design</span>
+              <span>Fullstack web development</span>
             </p>
             <p className="dev">
               {/* <div className="skills-icon"> <BsBriefcaseFill/></div> <br /> */}
               My development and tech aresenal: <br />
               <span>
-                Javascript(ES6+), SASS. ReactJS, React Native, NextJS, Tailwind CSS,
-                Bootstrap, Bulma, Material UI, FramerMotion, GSAP, Sanity,
-                Figma, Illustrator, Photoshop, Git, GitHub
+                HTML5, CSS, Javascript(ES6+), SCSS, ReactJS, React Native,
+                NextJS, Django, Django REST Framework, PostgreSQL,Tailwind CSS,
+                Material UI, FramerMotion, GSAP, Git, GitHub
               </span>
             </p>
           </div>
