@@ -32,7 +32,7 @@ const Works = () => {
           }
           icon={<AiFillEye />}
           buttonName={"View Live Site"}
-          link={"https://myrealestateapp.vercel.app/"}
+          link={"https://spexbyte.netlify.app/"}
           tech={"Next JS, Tailwind CSS, Framer Motion, GSAP"}
         />
         <Work
