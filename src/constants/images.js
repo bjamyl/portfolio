@@ -8,6 +8,7 @@ import jamflix from '../assets/jamflix.png'
 import search_app from '../assets/b_search.jpg'
 import real_estate from '../assets/real_estate.png'
 import spexbyte from '../assets/spexbyte.png'
+import gameshop from '../assets/gameshop.png'
 
 export default {
     bar,
@@ -19,5 +20,6 @@ export default {
     jamflix,
     search_app,
     real_estate,
-    spexbyte
+    spexbyte,
+    gameshop
 }

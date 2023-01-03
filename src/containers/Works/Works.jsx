@@ -11,6 +11,19 @@ const Works = () => {
         <h2>WORKS</h2>
         <Work
           className="work_2"
+          workImage={images.gameshop}
+          workTitle={"Gaming E-Commerce Web App"}
+          workDescription={"WEB DEVELOPMENT"}
+          workBrief={
+            "An e-commerce shop for browsing and purchasing gaming products. Users have access to two checkout options; paying with Stripe or with Paystack(this gateway supports the mobile money payment popular in Sub-Saharan Africa)"
+          }
+          icon={<AiFillEye />}
+          buttonName={"View Live Site"}
+          link={"https://gameshopp.vercel.app/"}
+          tech={"Django REST Framework, Next JS, Tailwind CSS, React Spring, Srtipe, Paystack, PostgreSQL"}
+        />
+        <Work
+          className="work_2"
           workImage={images.real_estate}
           workTitle={"Real Estate App"}
           workDescription={"WEB DEVELOPMENT"}
@@ -20,7 +33,7 @@ const Works = () => {
           icon={<AiFillEye />}
           buttonName={"View Live Site"}
           link={"https://myrealestateapp.vercel.app/"}
-          tech={"Django REST Framework, Next JS, Tailwind CSS, Framer Motion PostgreSQL"}
+          tech={"Django REST Framework, Next JS, Tailwind CSS, Framer Motion, PostgreSQL"}
         />
         <Work
           className="work_2"
