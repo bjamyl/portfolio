@@ -47,7 +47,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p id="footer-text">Handcrafted by Jamil &#169; 2022</p>
+        <p id="footer-text">Handcrafted by Jamil &#169;{(new Date().getFullYear())}</p>
       </div>
     </footer>
   );
